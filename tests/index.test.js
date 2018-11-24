@@ -5,7 +5,7 @@ const babel = require('@babel/core');
 it('should not contain invalid rules', () => {
   const result = babel.transform('let b = 1; a ** b;', {
     babelrc: false,
-    presets: ['./index.js'],
+    presets: ['./lib/index.js'],
     sourceType: 'script',
   });
 

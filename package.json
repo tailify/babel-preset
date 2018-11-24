@@ -7,6 +7,8 @@
     "index.js"
   ],
   "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "tailify/babel-preset",
@@ -17,6 +19,10 @@
   "license": "UNLICENSED",
   "bugs": "https://github.com/tailify/babel-preset/issues",
   "homepage": "https://github.com/tailify/babel-preset#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-node": "^8.0.0"
+  },
   "engines": {
     "node": ">=8"
   }

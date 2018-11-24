@@ -19,6 +19,9 @@
   "license": "UNLICENSED",
   "bugs": "https://github.com/tailify/babel-preset/issues",
   "homepage": "https://github.com/tailify/babel-preset#readme",
+  "dependencies": {
+    "@babel/preset-env": "7.1.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "eslint": "^5.9.0",

@@ -1,5 +1,7 @@
 'use strict';
 
-module.exports = function() {
-  return {};
+module.exports = () => {
+  return {
+    presets: ['@babel/env'],
+  };
 };

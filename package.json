@@ -1,0 +1,23 @@
+{
+  "name": "@tailify/babel-preset",
+  "version": "0.0.0",
+  "description": "Tailify's very own opinionated Babel preset",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "tailify/babel-preset",
+  "keywords": [
+    "babel",
+    "babel-preset"
+  ],
+  "license": "UNLICENSED",
+  "bugs": "https://github.com/tailify/babel-preset/issues",
+  "homepage": "https://github.com/tailify/babel-preset#readme",
+  "engines": {
+    "node": ">=8"
+  }
+}

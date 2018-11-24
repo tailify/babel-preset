@@ -11,3 +11,9 @@ branches:
 cache:
   directories:
     - node_modules
+
+notifications:
+  slack:
+    on_success: always
+    rooms:
+      secure: QBUeAoYr5UDmHPqL4hMpQgKx9T3E/icRSDTRK+opqDqq2XdMRosht77boFyqhOdsTnEXhFinSs76RcPpaNDYDmHNw9qs2orpzH6y5XgXk6Iee9YOONk2xnLSQaOpmxvm+3WUyO8/i+u+fwDn8PqQN775BDuYrUxkgiOqn3bDTrx4i8Np0ZNRpNN1EilgpOnc+Rl5AcbndK/MIAxIf0haLl2HMP/A+hStjQGid8mW1ZGRoVPDpYzlOJtYweHtxJC8CRQXDffBJNuBcwvOZfrr8TWcGsdOpF9GcOeWPGTPCaRYhAKfCt89FNJay43oK4R9AVPvwwP6W65t1r6UR5Q5DMO0jQdQ+UCHfZhjnPquURQFXEXvxANKAq0XBMjGmum9hR1azVD1eGPRXfaTREgoS0cSSLxtUaT6VrDrw06i5mf+QSFUYTM41+lpT9aXtJaLkrnEvlHLdyf5hVI7uS+nt8MuVSrgDdOIsQ96nvXhF3HgIBIANbm1zf+ASpbvfSzCOL1gNYZB0Qq38Xbi/MsCxWtyFxTGI0w/SelTnfpMMk3p0zwey9Zt/jzVJazHa19MCBSKaYEn95yMkxQp8A4ZkM3eM7rRywmmVdwWk4HJllKD+2WYVsyHFZ79EN8NZVf9p7KK96Sd71dW7oXU7xqFKI1Gllnp3pRvVh55BDFSANc=

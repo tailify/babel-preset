@@ -2,14 +2,14 @@
   "name": "@tailify/babel-preset",
   "version": "0.0.0",
   "description": "Tailify's very own opinionated Babel preset",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "index.js"
+    "lib/index.js"
   ],
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": "tailify/babel-preset",
   "keywords": [
@@ -25,7 +25,9 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "eslint": "^5.9.0",
-    "eslint-plugin-node": "^8.0.0"
+    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-node": "^8.0.0",
+    "jest": "^23.6.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0"

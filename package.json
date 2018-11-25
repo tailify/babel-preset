@@ -1,6 +1,6 @@
 {
   "name": "@tailify/babel-preset",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tailify's very own opinionated Babel preset",
   "main": "lib/index.js",
   "files": [

@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "jest"
+    "test": "npm run lint && npm run test-only",
+    "test-only": "jest"
   },
   "repository": "tailify/babel-preset",
   "keywords": [

@@ -3,8 +3,8 @@
 module.exports = {
   root: true,
   env: {
-    'jest/globals': true,
-    'node': true,
+    jest: true,
+    node: true,
   },
   extends: [
     'eslint:recommended',

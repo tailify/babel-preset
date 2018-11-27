@@ -4,7 +4,7 @@
   "description": "Tailify's very own opinionated Babel preset",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib/"
   ],
   "scripts": {
     "lint": "eslint .",

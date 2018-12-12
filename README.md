@@ -1,7 +1,7 @@
 # @tailify/babel-preset
 
 [![Build status][build-status-image]][build-status-url]
-[![Dependency status][dependency-status-image]][dependency-status-url]
+[![Greenkeeper][greenkeeper-image]][greenkeeper-url]
 [![Version][version-image]][version-url]
 
 > Tailify's very own opinionated Babel preset.
@@ -27,8 +27,8 @@ module.exports = {
 [build-status-image]: https://travis-ci.com/tailify/babel-preset.svg?branch=master
 [build-status-url]: https://travis-ci.com/tailify/babel-preset
 
-[dependency-status-image]: https://david-dm.org/tailify/babel-preset/master.svg
-[dependency-status-url]: https://david-dm.org/tailify/babel-preset
+[greenkeeper-image]: https://badges.greenkeeper.io/tailify/eslint-config.svg
+[greenkeeper-url]: https://greenkeeper.io
 
 [version-image]: https://img.shields.io/npm/v/@tailify/babel-preset.svg
 [version-url]: https://www.npmjs.com/package/@tailify/babel-preset

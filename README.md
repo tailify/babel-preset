@@ -27,7 +27,7 @@ module.exports = {
 [build-status-image]: https://travis-ci.com/tailify/babel-preset.svg?branch=master
 [build-status-url]: https://travis-ci.com/tailify/babel-preset
 
-[greenkeeper-image]: https://badges.greenkeeper.io/tailify/eslint-config.svg
+[greenkeeper-image]: https://badges.greenkeeper.io/tailify/babel-preset.svg
 [greenkeeper-url]: https://greenkeeper.io
 
 [version-image]: https://img.shields.io/npm/v/@tailify/babel-preset.svg

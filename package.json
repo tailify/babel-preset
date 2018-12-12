@@ -39,6 +39,18 @@
   "engines": {
     "node": ">=8"
   },
+  "greenkeeper": {
+    "commitMessages": {
+      "dependencyUpdate": "Update ${dependency} to version ${version}",
+      "devDependencyUpdate": "Update ${dependency} to version ${version}",
+      "dependencyPin": "Pin ${dependency} to ${oldVersion}",
+      "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
+    },
+    "prTitles": {
+      "basicPR": "Update ${dependency} to the latest version",
+      "groupPR": "Update ${dependency} in group ${group} to the latest version"
+    }
+  },
   "publishConfig": {
     "access": "public"
   }

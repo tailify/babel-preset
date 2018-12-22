@@ -2,7 +2,7 @@
 
 const babel = require('@babel/core');
 
-it('should not contain invalid rules', () => {
+test('should not contain invalid rules', () => {
   const result = babel.transform('let b = 1; a ** b;', {
     babelrc: false,
     presets: ['./lib/index.js'],

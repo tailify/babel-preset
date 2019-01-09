@@ -4,7 +4,7 @@
   "description": "Tailify's very own opinionated Babel preset",
   "main": "lib/index.js",
   "files": [
-    "lib/"
+    "lib"
   ],
   "scripts": {
     "lint": "eslint .",
@@ -28,10 +28,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "@tailify/eslint-config-legacy": "^1.0.0",
+    "@tailify/prettier-config": "^1.0.0",
     "eslint": "^5.9.0",
-    "eslint-plugin-jest": "^22.0.0",
-    "eslint-plugin-node": "^8.0.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "prettier": "^1.15.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0"

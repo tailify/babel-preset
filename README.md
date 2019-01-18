@@ -32,12 +32,6 @@ module.exports = {
 
 Targets browsers to compile against instead of the current node version.
 
-### `debug`
-
-`boolean`, defaults to `false`.
-
-Outputs the targets/plugins used and the version specified in [plugin data version](https://github.com/babel/babel/blob/master/packages/babel-preset-env/data/plugins.json) to `console.log`.
-
 [build-status-image]: https://travis-ci.com/tailify/babel-preset.svg?branch=master
 [build-status-url]: https://travis-ci.com/tailify/babel-preset
 

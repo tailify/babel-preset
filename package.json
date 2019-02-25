@@ -27,7 +27,7 @@
     "@babel/preset-env": "7.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
+    "@babel/core": "^7.3.4",
     "@tailify/eslint-config-legacy": "^1.0.0",
     "@tailify/prettier-config": "^1.0.0",
     "eslint": "^5.9.0",

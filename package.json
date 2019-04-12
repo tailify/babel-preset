@@ -30,6 +30,7 @@
     "@babel/core": "^7.4.3",
     "@tailify/eslint-config-legacy": "^1.0.0",
     "@tailify/prettier-config": "^1.0.0",
+    "core-js": "^3.0.0",
     "eslint": "^5.9.0",
     "jest": "^24.7.0",
     "prettier": "^1.15.0"

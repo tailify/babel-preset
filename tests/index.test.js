@@ -19,7 +19,7 @@ test('should compile targeting the current node version by default', () => {
     presets: [['./lib/index.js']],
     sourceType: 'script',
   });
-  expect(result.code).toBe('let b = 1;\na ** b;');
+  expect(result.code).toMatchSnapshot();
 });
 
 test('should compile targeting browsers', () => {
@@ -28,5 +28,5 @@ test('should compile targeting browsers', () => {
     presets: [['./lib/index.js', { browser: true }]],
     sourceType: 'script',
   });
-  expect(result.code).toBe('var b = 1;\nMath.pow(a, b);');
+  expect(result.code).toMatchSnapshot();
 });

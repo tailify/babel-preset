@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should compile targeting browsers 1`] = `
+"var b = 1;
+Math.pow(a, b);"
+`;
+
+exports[`should compile targeting the current node version by default 1`] = `
+"let b = 1;
+a ** b;"
+`;

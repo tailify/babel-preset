@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
-    "@tailify/eslint-config-legacy": "^3.0.0",
+    "@tailify/eslint-config-legacy": "^6.0.0",
     "@tailify/prettier-config": "^1.0.0",
     "core-js": "^3.0.0",
     "eslint": "^6.0.0",
